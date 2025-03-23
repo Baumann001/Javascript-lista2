@@ -143,7 +143,7 @@ console.log(` a palavra" ${palavra}" tem ${quantidadeVogais} vogais`);
 function somarArray(numeros){
    let soma = 0;
    
-   for(let i = 0, i <numeeros.length; i++){
+   for(let i = 0; i <numeros.length; i++){
 
    }
    return soma;
