@@ -60,6 +60,8 @@ let novafrase= substituirPalavras(frase);
 console.log(substituirPalavras(frase));
 */
 
+/*
+Atividade 15:
 function verificarCaracteres(texto){
 if ( texto.length>10){
    console.log("Essa tem mais de 10 caracteres");
@@ -70,5 +72,5 @@ if ( texto.length>10){
       let frase=prompt("digite uma frase:");
 
       verificarCaracteres(frase);
-      
 
+*/
