@@ -95,6 +95,8 @@ let fraseCompleta= saudacao(digitaNome);
 console.log(fraseCompleta);
 */
 
+/*
+Atividade 18:
 function verificarAprovacao(nota) {
    if (nota >=6 ) {
       console.log("Voce foi aprovado");
@@ -107,4 +109,31 @@ function verificarAprovacao(nota) {
    let aprovacao = parseFloat(prompt("Digite sua nota:"));
 
     verificarAprovacao(aprovacao);
+   */
+
+/*
+Atividade 19:
+for(let i=0; i <=30; i++){
+   if(i %2 === 0){
+      console.log(i);
+   }
+}
+
+*/
+
+function contarVogais(palavra){
+   let vogais= "aeiouAEIOU";
+   let contador= 0;
+     
+   for(let i=0; i<palavra.length; i++){
+      if( vogais.in ludes(palavra[i])){
+         contador++;
+      }
+
+   }
+   return contador;
+}
+let palavra = prompt("Digite uma palavra:");
+let quantidadeVogais = contarVogais(palavra);
+console.log(` a palavra" ${palavra}" tem ${quantidadeVogais} vogais`);
 
