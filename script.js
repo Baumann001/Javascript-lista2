@@ -182,6 +182,8 @@ while (numero<=20){
 }
 */
 
+/*
+Atividade 24:
 function capitalizar(texto) {
    return texto.charAt(0).toUpperCase() + texto.slice(1);
 }
@@ -189,3 +191,4 @@ function capitalizar(texto) {
 let palavra = prompt("Digite uma palavra:");
 let resultado = capitalizar(palavra);
 console.log(resultado);
+*/
