@@ -95,7 +95,7 @@ let fraseCompleta= saudacao(digitaNome);
 console.log(fraseCompleta);
 */
 
-function verificarAprovação(nota) {
+function verificarAprovacao(nota) {
    if (nota >=6 ) {
       console.log("Voce foi aprovado");
 
