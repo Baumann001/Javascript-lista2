@@ -140,3 +140,18 @@ let palavra = prompt("Digite uma palavra:");
 let quantidadeVogais = contarVogais(palavra);
 console.log(` a palavra" ${palavra}" tem ${quantidadeVogais} vogais`);
 */
+function somarArray(numeros){
+   let soma = 0;
+   
+   for(let i = 0, i <numeeros.length; i++){
+
+   }
+   return soma;
+}
+let numeros= [1,2,3,4,5,6];
+
+
+let resultado = somarArray(numeros);
+console.log(` A soma dos elementos do array é:  ${resultado}`);
+
+
