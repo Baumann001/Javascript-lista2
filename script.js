@@ -1,5 +1,5 @@
 /*
-Atividade 11
+Atividade 11:
 function verificarSinal(numero){
    if (numero > 0) {
     console.log(numero + " é positivo!   " );
@@ -15,7 +15,8 @@ let numero = parseFloat(prompt("Digite um número:"));
 verificarSinal(numero);
 */
 
-
+/*
+Atividade 12:
 function converterTemperatura(celsius){
    return ( celsius * 9/5   ) + 32;
 
@@ -23,7 +24,7 @@ function converterTemperatura(celsius){
 
 let temperaturaCelsius = parseFloat(prompt("Digite a temperatura em celsius:"));
 
-let temperaturaFahrenheit = converterTemperatura(celsius);
+let temperaturaFahrenheit = converterTemperatura(temperaturaCelsius);
 
 console.log(`A temperatura em Fahrenheit é: ${temperaturaFahrenheit}`);
-
+*/
