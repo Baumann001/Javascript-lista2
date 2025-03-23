@@ -95,15 +95,15 @@ let fraseCompleta= saudacao(digitaNome);
 console.log(fraseCompleta);
 */
 
-function verificarAprovação(nota){
-   if (nota>=6);
+function verificarAprovação(nota) {
+   if (nota>=6){
       console.log("Voce foi aprovado");
 
-   }else{
+   } else {
       console.log("Voce foi reprovado");
    }
 
    let aprovacao= parsefloat(prompt("Digite sua nota:"));
 
    let verificarAprovacao(aprovacao);
-   
+
