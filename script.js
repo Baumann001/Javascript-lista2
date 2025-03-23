@@ -54,4 +54,4 @@ let frase= prompt("Digite sua frase:");
 let novafrase= substituirPalavras(frase);
 
 
-console.log(substituirPalavra(frase));
+console.log(substituirPalavras(frase));
