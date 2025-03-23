@@ -160,6 +160,9 @@ let resultado = somarArray(numeros);
 console.log(` A soma dos elementos do array é:  ${resultado}`);
 */
 
+/*
+Atividade 22:
+
 function dobrarNumeros(numero){
    return(numero*2);
 }
@@ -167,3 +170,4 @@ function dobrarNumeros(numero){
 let receberNumero = parseFloat(prompt("digite um número"));
  
 console.log(` O número dobrado é: ${dobrarNumeros(receberNumero)}`);
+*/
