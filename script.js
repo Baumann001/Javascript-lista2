@@ -181,3 +181,11 @@ while (numero<=20){
    numero +=2;
 }
 */
+
+function capitalizar(texto) {
+   return texto.charAt(0).toUpperCase() + texto.slice(1);
+}
+
+let palavra = prompt("Digite uma palavra:");
+let resultado = capitalizar(palavra);
+console.log(resultado);
