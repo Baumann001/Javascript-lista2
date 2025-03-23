@@ -17,6 +17,8 @@ verificarSinal(numero);
 
 
 
+/*
+Atividade 12:
 function converterTemperatura(celsius){
    return ( celsius * 9/5   ) + 32;
 
@@ -27,4 +29,5 @@ let temperaturaCelsius = parseFloat(prompt("Digite a temperatura em celsius:"));
 let temperaturaFahrenheit = converterTemperatura(temperaturaCelsius);
 
 console.log(`A temperatura em Fahrenheit é: ${temperaturaFahrenheit}`);
+*/
 
