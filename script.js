@@ -76,4 +76,4 @@ if ( texto.length>10){
 */
 
 let frutas= ["maçã","manga","banana","uva", "abacaxi"];
-console.log("O terceiro elemento é" frutas[2]);
+console.log("O terceiro elemento é", frutas[2]);
