@@ -140,6 +140,10 @@ let palavra = prompt("Digite uma palavra:");
 let quantidadeVogais = contarVogais(palavra);
 console.log(` a palavra" ${palavra}" tem ${quantidadeVogais} vogais`);
 */
+
+/*
+Atividade 21:
+
 function somarArray(numeros){
    let soma = 0;
    
@@ -154,5 +158,12 @@ let numeros= [1, 2, 3, 4, 5, 6];
 
 let resultado = somarArray(numeros);
 console.log(` A soma dos elementos do array é:  ${resultado}`);
+*/
 
+function dobrarNumeros(numero){
+   return(numero*2);
+}
 
+let receberNumero = parseFloat(prompt("digite um número"));
+ 
+console.log(` O número dobrado é: ${dobrarNumeros(receberNumero)}`);
