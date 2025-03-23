@@ -31,14 +31,16 @@ let temperaturaFahrenheit = converterTemperatura(temperaturaCelsius);
 console.log(`A temperatura em Fahrenheit é: ${temperaturaFahrenheit}`);
 */
 
-let soma=0;
-let numero=1;
 
 
-while(numero<100){
-   soma += numero;
-   numero ++;
+let soma = 0;  
+let numero = 1; 
+
+while (soma < 100) {  // Continua até soma chegar a 100
+    soma += numero;  // Adiciona 1 à soma
+    console.log("Soma atual:", soma);  // Mostra a soma a cada passo
 }
-console.log("A soma dos números de 1 a 100 é:", soma);
+
+console.log("A soma final é:", soma);
 
 
