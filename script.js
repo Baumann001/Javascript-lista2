@@ -74,3 +74,6 @@ if ( texto.length>10){
       verificarCaracteres(frase);
 
 */
+
+let frutas= ["maçã","manga","banana","uva", "abacaxi"];
+console.log("O terceiro elemento é" frutas[2]);
