@@ -75,5 +75,18 @@ if ( texto.length>10){
 
 */
 
+/*
+Atividade 16:
 let frutas= ["maçã","manga","banana","uva", "abacaxi"];
-console.log("O terceiro elemento é", frutas[2]);
+console.log("O terceiro elemento é", frutas[2]); // começa em zero, ou seja a banana é o número 2
+*/
+
+function saudacao(nome) {
+   return("Bem-vindo(a),"+nome)
+   
+}
+
+let digitaNome= prompt("qual é seu nome?");
+let fraseCompleta= saudacao(digitaNome);
+
+console.log(fraseCompleta);
