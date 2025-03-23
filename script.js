@@ -83,7 +83,7 @@ console.log("O terceiro elemento é", frutas[2]); // começa em zero, ou seja a 
 
 
 /*
-Atividade17:
+Atividade 17:
 function saudacao(nome) {
    return("Bem-vindo(a),"+nome)
    
