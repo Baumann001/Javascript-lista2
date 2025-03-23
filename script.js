@@ -104,7 +104,7 @@ function verificarAprovação(nota) {
    }
 }
 
-   let aprovacao = parsefloat(prompt("Digite sua nota:"));
+   let aprovacao = parseFloat(prompt("Digite sua nota:"));
 
     verificarAprovacao(aprovacao);
 
