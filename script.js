@@ -121,6 +121,9 @@ for(let i=0; i <=30; i++){
 
 */
 
+/*
+Atividade 20:
+
 function contarVogais(palavra){
    let vogais= "aeiouAEIOU";
    let contador= 0;
@@ -136,4 +139,4 @@ function contarVogais(palavra){
 let palavra = prompt("Digite uma palavra:");
 let quantidadeVogais = contarVogais(palavra);
 console.log(` a palavra" ${palavra}" tem ${quantidadeVogais} vogais`);
-
+*/
