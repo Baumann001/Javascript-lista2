@@ -45,3 +45,13 @@ while (soma < 100) {  // Continua até soma chegar a 100
 console.log("A soma final é:", soma);
 */
 
+function substituirPalavras(texto) {
+   return texto.replace(/azul/g, "vermelho");
+}
+
+let frase= prompt("Digite sua frase:");
+
+let novafrase= substituirPalavras(frase);
+
+
+console.log(substituirPalavra(frase));
