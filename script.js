@@ -32,7 +32,8 @@ console.log(`A temperatura em Fahrenheit é: ${temperaturaFahrenheit}`);
 */
 
 
-
+/*
+Atividade 13:
 let soma = 0;  
 let numero = 1; 
 
@@ -42,5 +43,5 @@ while (soma < 100) {  // Continua até soma chegar a 100
 }
 
 console.log("A soma final é:", soma);
-
+*/
 
