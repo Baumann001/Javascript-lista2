@@ -45,6 +45,9 @@ while (soma < 100) {  // Continua até soma chegar a 100
 console.log("A soma final é:", soma);
 */
 
+
+/*
+Atividade 14:
 function substituirPalavras(texto) {
    return texto.replace(/azul/g, "vermelho");
 }
@@ -55,3 +58,17 @@ let novafrase= substituirPalavras(frase);
 
 
 console.log(substituirPalavras(frase));
+*/
+
+function verificarCaracteres(texto){
+if ( texto.length>10){
+   console.log("Essa tem mais de 10 caracteres");
+}else{
+   console.log("Essa frase tem 10 caracteres ou menos");
+   }
+}
+      let frase=prompt("digite uma frase:");
+
+      verificarCaracteres(frase);
+      
+
