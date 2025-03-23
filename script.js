@@ -171,9 +171,13 @@ let receberNumero = parseFloat(prompt("digite um número"));
  
 console.log(` O número dobrado é: ${dobrarNumeros(receberNumero)}`);
 */
+
+/*
+Atividade 23:
 let numero= 2;
 
 while (numero<=20){
    console.log(numero);
    numero +=2;
 }
+*/
