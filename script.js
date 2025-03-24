@@ -192,3 +192,16 @@ let palavra = prompt("Digite uma palavra:");
 let resultado = capitalizar(palavra);
 console.log(resultado);
 */
+
+function anoBissexto(ano){
+   return( ano %4==0 && ano% 100 !== 0) || (ano % 400 === 0);
+
+}
+ let ano= parseInt(prompt("digite um ano:"));
+let resultado= anoBissexto(ano);
+
+if(resultado){
+   console.log(`${ano} é um ano bissexto`);
+} else{
+   console.log(`${ano} não é um ano bissexto`);
+}
